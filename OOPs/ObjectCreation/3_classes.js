@@ -29,3 +29,14 @@ console.log(p1.nameFirst);
 p1.nameFirst = "Shef";
 p1.printName();
 
+class SuperHuman extends Person {
+  constructor(name, age) {
+    super(name, age);
+  }
+  sayHi() {
+    console.log(`I am ${this.name}, and ${this.age} years old`);
+  }
+}
+
+const superHuman = new SuperHuman("Shefali", 24);
+console.log("superHuman", superHuman.sayHi());
