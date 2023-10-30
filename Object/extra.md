@@ -33,7 +33,7 @@ To prevent the addition of new properties to an object, you can use the Object.p
     car.model = "Corolla";
 ```
 
-## 3. Avoid delete or add, but update is allowed - Object.seal()
+## 3. Avoid delete or add, but update is allowed - `Object.seal()`
 
 Object.seal() not only prevents adding new properties but also makes existing properties non-configurable. You can still update existing properties, but you cannot delete them.
 
@@ -56,7 +56,7 @@ Object.seal() not only prevents adding new properties but also makes existing pr
 
 ```
 
-## 4. Avoid add, update, and delete - Object.freeze()
+## 4. Avoid add, update, and delete - `Object.freeze()`
 
 Object.freeze() goes a step further than Object.seal(). It makes an object read-only by preventing any changes to its properties, including addition, modification, and deletion.
 
