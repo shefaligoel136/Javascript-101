@@ -2,6 +2,9 @@ const fs = require("fs");
 console.log("Starting");
 let p1 = fs.promises.readFile("../Files/f1.txt");
 
+
+// PROMISE HELL
+
 p1.then(function (data) {
   console.log(data.toString());
   let p2 = fs.promises.readFile("../Files/f2.txt");
