@@ -1,4 +1,4 @@
-// what a proxy -> ?? it intercepots and modify get and set of an object
+// what a proxy -> ?? it intercepts and modify get and set of an object
 
 let obj = { eng: "Hello", eng2: "hi" };
 
