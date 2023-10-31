@@ -1,6 +1,6 @@
 # README - JavaScript Event Loop and Output Explanation
 
-    This README provides an explanation of the output for the JavaScript code snippet you provided. The code contains various asynchronous operations that run within the JavaScript event loop, each with different priorities and execution times. Below is a breakdown of the output you can expect:
+This README provides an explanation of the output for the JavaScript code snippet you provided. The code contains various asynchronous operations that run within the JavaScript event loop, each with different priorities and execution times. Below is a breakdown of the output you can expect:
 
     ```javascript
     console.log("A.. sync task");
